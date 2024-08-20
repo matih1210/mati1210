@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico N°1</title>
+    <style>
+         table{
+          width: 20%;  
+          border:1px solid black;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+        header, footer{
+            background-color: gray;
+            color:black;
+            text-align: left;
+            padding: 10px;
+        }
+        main{
+            padding: 8px;
+        }
+        section{
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+   <header>
+    <h1>Encabezado pricipal</h1>
+    <div>
+        <nav>
+            <ul> 
+                <li> <a href="#Sección 1">Ir a la Sección 1</a> </li>
+                <li> <a href="#Sección 2">Ir a la Sección 2</a> </li>
+                <li> <a href="#Sección 3">Ir a la Sección 3</a> </li>
+                <li> <a href="#Sección 4">Ir a la Sección 4</a> </li>
+                <li> <a href="#Sección 5">Ir a la Sección 5</a> </li>
+                <li> <a href="#Sección 6">Ir a la Sección 6</a> </li>
+                <li> <a href="#Sección 7">Ir a la Sección 7</a> </li>
+            </ul> 
+        </nav>
+        
+   </header>
+
+   <main>
+    <section>
+    <h4 id="Sección 1">Sección 1</h4>
+    
+    <div>
+        <h2>1.Estructura Básica del Documento HTML</h2>
+        <p> Este documento <span style="color:blue;">HTML</span> tiene una estructura básica que incluye
+         la declaración de <span style="color:blue;">DOCTYPE</span>, etiquetas de metadatos y un título.</p>
+    </div>
+    </section>
+
+    <section>
+    <h4 id="Sección 2">Sección 2</h4>
+    <div>
+    <h2>2.Encabezados y Propiedades del Texto</h2>
+    <h3>Hola soy un h3</h3>
+    <h4>Hola soy un h4</h4>
+    <h5>Hola soy un h5</h5>
+    <h6>Hola soy un h6</h6>
+    <article>
+        <p><b>Esto es un texto en negrita</b> <br />
+            <em>Esto es un texto en cursiva</em> <br />
+            <u>Esto es un texto subrayado</u>
+        </p>
+    </article>
+    </div>
+    </section>
+    
+    <section>
+    <h4 id="Sección 3">Sección 3</h4>
+    <div>
+        <h2>3.Divisiones y Agrupación de Contenido</h2>
+    </div>
+    </section>
+
+    <section>
+    <h4 id="Sección 4">Sección 4</h4>
+    <div>
+        <h2>4.Enlaces y Listas</h2>
+        <nav> <a href="https://es.wikipedia.org/wiki/Harry_Potter" target="_blank"> Harry Potter </a>
+        </nav>
+        <article>
+            <p>Lista ordenada:</p>
+            <ol>
+                <li>Soy el elemento 1 de la lista ordenada</li>  
+                <li>Soy el elemento 2 de la lista ordenada</li>
+                <li>Soy el elemento 3 de la lista ordenada</li>
+                <li>Soy el elemento 4 de la lista ordenada</li>
+            </ol>
+        </article>
+        <article>
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Soy el elemento 1 de la lista desordenada</li>  
+                <li>Soy el elemento 2 de la lista desordenada</li>
+                <li>Soy el elemento 3 de la lista desordenada</li>
+                <li>Soy el elemento 4 de la lista desordenada</li>
+            </ul>
+        </article>
+    </div>
+    </section>
+
+    <section>
+    <h4 id="Sección 5">Sección 5</h4>
+    <div>
+        <h2>5.Elementos Multimedia</h2>
+        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/01/harry-potter.jpg?tf=3840x" 
+        width="200px"
+        height="200px"
+        alt="Es una imagen"/>
+        <video
+    src="https://videos.pexels.com/video-files/6042317/6042317-uhd_2560_1440_30fps.mp4"
+    controls
+    width="200px"
+    height="200px" />
+    </div>
+    <div>
+        <audio
+        src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+        controls
+        />
+    </div>
+    </section>
+
+    <section>
+    <h4 id="Sección 6">Sección 6</h4>
+    <div>
+        <h2>6.Tablas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+
+    <section>
+    <h4 id="Sección 7">Sección 7</h4>
+    <div>
+        <h2>7.Formularios</h2>
+        <form>
+            <div>
+                <label>Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre"/>
+            </div>
+    
+            <div>
+                <label>Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido"/>
+            </div>
+    
+            <div>
+                <label>Edad:</label>
+            <input type="number" placeholder="Ingrese su edad"/>
+            </div>
+
+            <div>
+                <label>Email:</label> 
+            <input type="email" placeholder="example@example.com"/>
+            </div>
+
+            <div>
+                <label>Mensaje:</label>
+            <textarea placeholder="información más detallada"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+    </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>2024 Trabajo Práctico de HTML</p>
+</footer>
+   
+</body>
+</html>
