@@ -12,4 +12,4 @@ Hola soy Matías Hansen, 20 años.Soy estudiante de 3° en Ingeniería en Sistem
 #Ejecutar#
 Para ver la página puede:
 1-Descargar el archivo .html y abrirlo con un navegador
-2-Acceder por el link:
+2-Acceder por el link: https://matih1210.github.io/mati1210/
